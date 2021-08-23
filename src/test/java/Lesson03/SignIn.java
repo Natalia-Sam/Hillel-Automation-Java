@@ -16,7 +16,7 @@ public class SignIn {
 
         if(userNameLength2 != 0){
             System.out.println("Enter your password: ");
-        }else{
+        } else {
             System.out.println("Error! The name is empty");
         }
         int expectedPassword = 22;
@@ -24,7 +24,7 @@ public class SignIn {
         int password2 = inputPassword.nextInt();
         if(password2 == expectedPassword){
             System.out.println("Welcome to your account!");
-        }else{
+        } else {
             System.out.println("Name or password are incorrect");
         }
 
@@ -43,7 +43,7 @@ public class SignIn {
         String password = scanPassword.nextLine();
         int passwordLength = password.length();
 
-        if ((userNameLength != 0) && (passwordLength > 6)) {
+        if((userNameLength != 0) && (passwordLength > 6)){
             System.out.println("Welcome to your account!");
         } else {
             System.out.println("Name or password are incorrect");
